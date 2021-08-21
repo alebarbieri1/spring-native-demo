@@ -3,8 +3,7 @@ package com.example.demo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.redis.core.RedisKeyValueAdapter;
-import org.springframework.nativex.hint.NativeHint;
-import org.springframework.nativex.hint.TypeHint;
+import org.springframework.nativex.hint.*;
 
 @SpringBootApplication
 @NativeHint(types = {

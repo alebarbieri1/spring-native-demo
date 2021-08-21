@@ -31,7 +31,7 @@ public class RedisConfig {
 
     @Bean
     public RedisStandaloneConfiguration redisStandaloneConfiguration() {
-        return new RedisStandaloneConfiguration("localhost", 6379);
+        return new RedisStandaloneConfiguration(host, port);
     }
 
     @Bean
