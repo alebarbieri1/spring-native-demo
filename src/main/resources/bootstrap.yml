@@ -1,0 +1,6 @@
+spring:
+  profiles: default,dev,hom
+aws:
+  secretsmanager:
+    enabled: true
+    region: us-east-1
