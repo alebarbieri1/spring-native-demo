@@ -40,6 +40,9 @@ import java.util.HashSet;
 				ClientConfiguration.class, Builder.class, AWSSecretsManagerClientBuilder.class,
 				Partitions.class, Partition.class, Endpoint.class, HashSet.class, Region.class,
 				Service.class, CredentialScope.class, AWS4Signer.class
+		}),
+		@TypeHint(typeNames = {
+				"com.amazonaws.services.s3.internal.AWSS3V4Signer"
 		})
 })
 @JdkProxyHints({
